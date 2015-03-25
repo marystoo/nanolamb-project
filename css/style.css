@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+header{
+	font-family: Lobster, cursive;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h1{
+	 font-size: 64px;
+	 line-height: 73px;
+	 margin-bottom: 10px;
+}
+
+h2{
+	font-size: 1.2em;
+	line-height: 1.21em;
+	margin-bottom: 25px;
+}
+
+nav {
+	font-family: Georgia;
+}
