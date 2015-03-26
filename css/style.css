@@ -1,23 +1,58 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
+
+body{
+	background-color: #FCFAE6;
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+   	font-weight: 400;
+   	font-color: #444;;
+}
 
 header{
 	font-family: Lobster, cursive;
 	font-style: normal;
 	font-weight: 400;
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	background-color: #FCFAE6;
 }
+
 
 h1{
 	 font-size: 64px;
 	 line-height: 73px;
 	 margin-bottom: 10px;
+	 color: #444;
+	 
 }
 
 h2{
 	font-size: 1.2em;
 	line-height: 1.21em;
 	margin-bottom: 25px;
+	color: #901808;
+}
+
+h3{
+	font-family: Lobster, cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.1em;
+	color: #901808;
 }
 
 nav {
-	font-family: Georgia;
+	display: block;
+	float: right;
 }
+
+article{
+	display: block;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
