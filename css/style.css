@@ -53,14 +53,6 @@
 .col-11 { width: 91.5%; }
 .col-12 { width: 100%;  }
 
-
-body{
-	background-color: #fff;
-	font-family: 'Arimo', sans-serif;
-	font-style: normal;
-   	font-weight: 400;
-   	font-color: #444;;
-}
 /*////HEADER/////*/
 
 header{
@@ -88,6 +80,13 @@ header h2{
 	z-index: 1;
 }
 
+h2{
+	font-family: Lobster, cursive;
+	font-style: normal;
+	font-weight: 400;
+	color: #D96248;
+}
+
 h3{
 	font-family: Lobster, cursive;
 	font-style: normal;
@@ -99,6 +98,10 @@ h3{
 
 p {
 	margin-bottom: 2%;
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+   	font-weight: 400;
+   	font-color: #444;;
 }
 
 img {
