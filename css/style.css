@@ -1,38 +1,91 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
 
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*//////Column Structure//////*/
+
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-1  { width: 6.5%;  }
+.col-2  { width: 15%;   }
+.col-3  { width: 23.5%; }
+.col-4  { width: 32%;   }
+.col-5  { width: 40.5%; }
+.col-6  { width: 49%;   }
+.col-7  { width: 57.5%; }
+.col-8  { width: 66%;   }
+.col-9  { width: 74.5%; }
+.col-10 { width: 83%;   }
+.col-11 { width: 91.5%; }
+.col-12 { width: 100%;  }
+
+
 body{
-	background-color: #FCFAE6;
+	background-color: #fff;
 	font-family: 'Arimo', sans-serif;
 	font-style: normal;
    	font-weight: 400;
    	font-color: #444;;
 }
+/*////HEADER/////*/
 
 header{
 	font-family: Lobster, cursive;
 	font-style: normal;
 	font-weight: 400;
-	display: block;
-	width: 70%;
-	margin: 0 auto;
-	background-color: #FCFAE6;
+	padding-top: 20px;
 }
 
 
-h1{
+header h1{
 	 font-size: 64px;
 	 line-height: 73px;
-	 margin-bottom: 10px;
-	 color: #444;
+	 color: #004248;
 	 
 }
 
-h2{
+header h2{
 	font-size: 1.2em;
 	line-height: 1.21em;
-	margin-bottom: 25px;
-	color: #3391A6;
+	color: #008895;
+	position: relative;
+	top: -10px;
+	left: 79px;
+	z-index: 1;
 }
 
 h3{
@@ -44,15 +97,16 @@ h3{
 	color: #D96248;
 }
 
-nav {
-	display: block;
-	float: right;
+p {
+	margin-bottom: 2%;
 }
 
-article{
-	display: block;
-	width: 70%;
-	margin-right: auto;
-	margin-left: auto;
+img {
+	border: 5px solid #004248;
+	height: 100%;
+}
+
+nav {
+	margin-top: 20px;
 }
 
